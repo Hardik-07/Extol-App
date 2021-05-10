@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <RelativeLayout
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="120dp"
+        android:background="@drawable/image_border"/>
+    <ImageView
+        android:layout_width="118dp"
+        android:layout_height="118dp"
+        android:layout_marginTop="166dp"
+        android:layout_marginLeft="145dp"
+        android:src="@drawable/app"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="320dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/username"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Charusat Institute"
+            android:textSize="18dp"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="400dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:srcCompat="@drawable/ic_email_black_24dp"/>
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/email"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:paddingLeft="10dp"
+                android:text="charusatfamily@charusat.ac.in"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="400dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="LogOut"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+</RelativeLayout>
